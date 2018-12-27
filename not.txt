@@ -1,0 +1,36 @@
+int[] anArray=new int[length_of_array];        //Array ডিক্লেয়ার করার উপায়
+
+ 
+
+System.out.print(something to print);           //লেখা শেষ হওয়ার পর ও একই লাইন এ থাকবে
+
+System.out.println(something to print);       //লেখা শেষ করে পরের লাইন এ যাবে
+
+sc.nextInt();                                                      //পরবর্তী int কে রিটার্ন করবে
+
+sc.nextLine();                                                  //পরবর্তী string  কে রিটার্ন করবে
+
+sc.nextDouble();                                             //পরবর্তী double  কে রিটার্ন করবে
+
+str.length();                                                     //স্ট্রিং এর দৈর্ঘ্য (int)
+
+str.toLowerCase();                                        //সবগুলো অক্ষরকে ছোট হাতের করার মেথড
+
+str.toUpperCase();                                        //সবগুলো অক্ষর কে বড়হাতের করার মেথড
+
+str.isEmpty();                                                  //স্ট্রিং সম্পূর্ণ ফাঁকা কিনা (boolean return করবে )
+
+str.charAt(index )                                           //index অবস্থানে কি char আছে তা return করবে
+
+static Scanner myScanner=new Scanner(System.in);// Browser input
+
+// prln or pr dia print korar Methods
+
+static void prln(Object anyObject){
+		System.out.println(anyObject);
+		
+	}
+	static void pr(Object anyObject){
+		System.out.print(anyObject);
+		
+	}
