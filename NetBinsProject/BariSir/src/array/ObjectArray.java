@@ -1,6 +1,8 @@
 
 package array;
 
+import java.util.List;
+
 class Account{
     int a;
     String b;
@@ -22,7 +24,9 @@ public class ObjectArray {
         obj[1] = new Account(2, "Cummila");
         obj[1].showData();
         
-      //  Account obj2[] = {{"DD"},{"AA"},{"CC"}};
+      // Account obj2[] = {"DD"},{"AA"},{"CC"};
+      
+     
     }
     
 }

@@ -4,7 +4,7 @@ package evidence;
 import java.util.Arrays;
 
 
-public class Arry2DSort {
+public class Q7Arry2DSort {
     public static void main(String[] args) {
         int [][] arr2D = {
             {1,8,5,6,7,10},

@@ -10,7 +10,11 @@ public class Q2PrintArrayAndSum {
             sum += arr[i];
             
         }
-        System.out.println("Array is :"+arr);
+        System.out.print("The array is :");
+        for (int i : arr) {
+            System.out.print(i +" ");
+        }
+        System.out.println();
         System.out.println("Sum of arrays :"+sum);
     }
 }
