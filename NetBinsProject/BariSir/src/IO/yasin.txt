@@ -1,0 +1,5 @@
+My name is Yasin
+Arif
+sohan
+This i the content to write into file
+This i the content2 to write into file
