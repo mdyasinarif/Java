@@ -10,7 +10,6 @@ class Employee{
         this.name = "Yasin";
     }
     
-    
     public Employee(int employeeid,String name) {
         this.employeeid = employeeid;
         this.name = name;
@@ -41,8 +40,8 @@ public class Manager extends  Employee{
     public static void main(String[] args) {
         Manager mgr = new Manager(1, "Mr Arif", "IT");
         mgr.print();
-        Employee e = new Manager(2, "Sohan", "B");
-        mgr = (Manager)e;
+//        Employee e = new Manager(2, "Sohan", "B");
+//        mgr = (Manager)e;
         System.out.println(mgr.getDetails());
     }
     void print(){
