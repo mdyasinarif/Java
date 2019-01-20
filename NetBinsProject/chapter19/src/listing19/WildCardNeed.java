@@ -9,16 +9,13 @@ public class WildCardNeed {
         inStack.push(2);
         inStack.push(-2);
         
-       //error System.out.println("Tha Max is "+max(inStack));
+        print(inStack);
     }
-    public static double max(GenericStack<Number> stack){
-        double max = stack.pop().doubleValue();
+    public static void print(GenericStack< ? > stack){//Integer thakay Number ka Extend kora hoy sa
+       
         while (!stack.isEmpty()) {            
-            double value = stack.pop().doubleValue();
-            if (value > max) {
-                
-            }
-        }
-        return max;
+            System.out.println(stack.pop()+" ");
+    }
     }
 }
+

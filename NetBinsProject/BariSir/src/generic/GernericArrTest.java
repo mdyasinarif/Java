@@ -33,7 +33,7 @@ public class GernericArrTest {
         System.out.print(stlist.get(0)+" ");
         System.out.print(stlist.get(1)+" ");
         System.out.println();
-          System.out.println();
+        System.out.println();
         System.out.println("Print like 2D array");
         System.out.println(inlist.get(0)+" "+stlist.get(0));
         System.out.println(inlist.get(1)+" "+stlist.get(1));
