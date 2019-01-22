@@ -1,6 +1,6 @@
 
 package string_vs_stringbuffer;
-
+// string is used to manipulate character String that 
 
 public class EqualCheck {
     public static void main(String[] args) {

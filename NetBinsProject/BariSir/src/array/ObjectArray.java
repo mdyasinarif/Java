@@ -12,13 +12,13 @@ class Account{
         this.b = b;
     }
     public void showData(){
-        System.out.println(a);
-        System.out.println(b);
+        System.out.println(a+ " "+b);
+ 
     }
 }
 public class ObjectArray {
     public static void main(String[] args) {
-        Account obj[] = new Account[2];
+        Account obj[] = new Account[2];//class type /object type array
         obj[0] = new Account(1, "Dhaka");
         obj[0].showData();
         obj[1] = new Account(2, "Cummila");

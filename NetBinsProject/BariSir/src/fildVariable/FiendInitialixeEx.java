@@ -5,9 +5,10 @@ import java.util.Date;
 
 
 public class FiendInitialixeEx {
-    double a;
-    Date b = new Date();
-    String s;
+    // global + field variable 
+    double a;// 1. Initialization using default value;
+    Date b = new Date();// 2. Initialization using expict value system current date
+    String s;//3. Initialization using by concstructor
 
     public FiendInitialixeEx(String s) {
         this.s = s;

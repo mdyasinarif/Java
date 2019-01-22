@@ -21,8 +21,16 @@ public class SinglaArray {
         
         System.out.println("Assending Number :");
         Arrays.sort(num);
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < num.length; i++) {
             System.out.print(" "+num[i]);
         }
+        System.out.println();
+        System.out.print("Advance for ");
+        int sum = 0;
+        for (int i : num) {
+            sum += i;
+            System.out.print(i+" ");
+        }
+        System.out.println("\nSum : "+sum);
     }       
 }

@@ -29,6 +29,16 @@ public class PrimitiveTypeEx {
         String dTos = Double.toString(dd);
         System.out.println("Double to Sring: "+dd);
         
+        // char to int;
+        char c = 'a';
+        int cToi = c;
+        System.out.println("char to int"+cToi);
+        
+        // int to char
+        int ii = 94;
+        char iToc = (char) ii;
+        System.out.println("int to char :"+iToc);
+        
         
     }
 }
