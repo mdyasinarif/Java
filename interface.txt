@@ -1,0 +1,90 @@
+An interface is a reference type in Java. It is similar to class. 
+It is a collection of abstract methods. 
+A class implements an interface, thereby inheriting 
+the abstract methods of the interface. Along with abstract methods, 
+an interface may also contain constants, default methods, static
+methods, and nested types.
+
+
+package interfaceEx;
+
+
+// bordy part chara interface ka marker interface make kora jay
+// defualt interface cloneable 
+
+Example:
+public interface Animal {
+    // variable implicitly public static final
+    int x = 100;// static and final
+    
+    
+    // methods implicitly public abstract// no body 
+    void eat();
+    
+    void travel();
+}
+
+package interfaceEx;
+
+// interface  to interface  extends 
+// Class  to interface  Implements
+// mannalInt abstract hola no need to override
+// but not create to object is conctit class
+public class MannalInt implements Animal{// is a relation 
+    MannalInt(){
+        // x = 67;
+       int x = 67;// not work 
+    
+    }
+    public int noOfLegs(){
+        return 10;
+    }
+    
+    public static void main(String[] args) {
+        MannalInt m = new MannalInt();
+        m.eat();
+        m.travel();
+        
+        System.out.println(m.noOfLegs());
+        
+        System.out.println(x);
+        System.out.println(m.x);// from animal final ti no change x = 67
+        System.out.println(Animal.x);
+    }
+    
+    @Override
+    public void eat() {
+        System.out.println("Mammal Eate");
+    }
+
+    @Override
+    public void travel() {
+        System.out.println("Mammal travel");
+    }
+    
+}
+
+package interfaceEx;
+
+
+public class TestImplement implements TestA,TestB{
+    public static void main(String[] args) {
+        TestImplement ti = new TestImplement();
+        ti.print();
+    }
+    
+    
+    // implements so must be overried
+    @Override
+    public void print() {
+        System.out.println("Printing......");
+        System.out.println(a);
+    }
+
+    @Override
+    public void printx() {
+     
+    }
+
+    
+}
