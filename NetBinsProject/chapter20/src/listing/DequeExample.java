@@ -5,6 +5,10 @@
  */
 package listing;
 
+import java.util.Deque;
+import java.util.Iterator;
+import java.util.LinkedList;
+
 /**
  *
  * @author User
@@ -28,7 +32,7 @@ public class DequeExample {
         // Iterate through the queue elements. 
         System.out.println("Standard Iterator"); 
         Iterator iterator = deque.iterator(); 
-        while (iterator.hasNext()) 
+        while (iterator.hasNext())                 
             System.out.println("\t" + iterator.next()); 
   
   
