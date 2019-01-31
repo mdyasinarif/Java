@@ -10,17 +10,17 @@
  */
 public class NewInstanceExample {
 
-    int m_x, m_y;
+   int m_x, m_y;
 
-    public NewInstanceExample() {
-    }
+   public NewInstanceExample() {
+   }
 
     public NewInstanceExample(int x, int y) {
-        m_x = x;
-        m_y = y;
+      m_x = x;
+      m_y = y;
     }
 
     public static void main(String args[]) {
-        NewInstanceExample p = new NewInstanceExample(20,30);
+      NewInstanceExample p = new NewInstanceExample(20,30);
     }
 }
