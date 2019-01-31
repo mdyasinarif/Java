@@ -1,5 +1,6 @@
-package finalEvidence;
+package lastEvidence;
 
+import finalEvidence.*;
 import java.util.Scanner;
 
 public class Fibonacci {
