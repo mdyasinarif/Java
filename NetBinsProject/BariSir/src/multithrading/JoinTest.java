@@ -13,7 +13,7 @@ public class JoinTest implements Runnable{
             System.out.println("Strated");
             t.join(); 
             /*
-            with out join 
+            without join 
             output is 
             Strated
             Compleated
