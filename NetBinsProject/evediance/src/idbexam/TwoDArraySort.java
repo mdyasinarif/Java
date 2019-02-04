@@ -1,6 +1,7 @@
 
-package finalEvidence;
+package idbexam;
 
+import finalEvidence.*;
 import java.util.Arrays;
 
 

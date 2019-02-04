@@ -1,25 +1,27 @@
+package idbexam;
 
-package finalEvidence;
-
+import lastEvidence.*;
 import java.util.Scanner;
 
-
 public class SentanalValue {
+
     public static void main(String[] args) {
         sum();
-}
-    public static void sum(){
+    }
+
+    public static void sum() {
         Scanner input = new Scanner(System.in);
         int sum = 0;
-        for (int i = 0; ; i++) {
-            System.out.print("Enter Number :");
+
+        for (int i = 0; true; i++) {
+            System.out.print("Enter number : ");
             int n = input.nextInt();
-            if(n>0){
+            if (n > 0) {
                 sum += n;
-            }else{
+            } else {
                 break;
             }
         }
-        System.out.println("Sum :"+sum);
+        System.out.println("Sum :" + sum);
     }
-    }
+}

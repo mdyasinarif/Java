@@ -3,15 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package classTest;
+package enam;
 
 /**
  *
- * @author User
+ * @author Md Yasin Arif
  */
-public class Test2 {
-    public static void main(String[] args) {
-        float[] a = new float[2];
-        System.out.println(a[1]);
-    }
+public class DayConstrant {
+    public static final int SAT = 1;
+    public static final int SUN = 2;
+    public static final int MON = 3;
+    
 }
