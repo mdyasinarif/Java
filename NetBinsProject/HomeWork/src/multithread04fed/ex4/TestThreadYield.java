@@ -7,8 +7,7 @@ public class TestThreadYield implements Runnable{
      TestThreadYield(String str) {
         t = new Thread(this, str);
         t.start();
-    }
-    
+    } 
     @Override
     public void run() {
         for (int i = 0; i < 20; i++) {
@@ -18,10 +17,8 @@ public class TestThreadYield implements Runnable{
             }
         }
         System.out.println(Thread.currentThread().getName()+" has finished");
-    }
-    
+    } 
 }
-
 class Test{
     public static void main(String[] args) {
         new TestThreadYield("Thread 1");
